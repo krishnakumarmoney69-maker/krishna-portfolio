@@ -1,0 +1,141 @@
+/* Reset & Global */
+* {
+  margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-color: #f4f4f9;
+            color: #333;
+              line-height: 1.6;
+              }
+
+              /* Header */
+              header {
+                background: linear-gradient(135deg, #6C63FF, #3B82F6);
+                  color: white;
+                    padding: 60px 20px;
+                      text-align: center;
+                        border-bottom-left-radius: 30px;
+                          border-bottom-right-radius: 30px;
+                          }
+
+                          header h1 {
+                            font-size: 2.8em;
+                              margin-bottom: 10px;
+                              }
+
+                              header p {
+                                font-size: 1.2em;
+                                }
+
+                                /* Header Image */
+                                .profile-img {
+                                  width: 150px;
+                                    height: 150px;
+                                      border-radius: 50%;
+                                        border: 4px solid white;
+                                          display: block;
+                                            margin: 0 auto 20px auto;
+                                            }
+
+                                            /* Navigation */
+                                            nav {
+                                              display: flex;
+                                                justify-content: center;
+                                                  gap: 25px;
+                                                    margin: 30px 0;
+                                                      flex-wrap: wrap;
+                                                      }
+
+                                                      nav a {
+                                                        text-decoration: none;
+                                                          padding: 10px 20px;
+                                                            background-color: #3B82F6;
+                                                              color: white;
+                                                                border-radius: 10px;
+                                                                  transition: background 0.3s;
+                                                                  }
+
+                                                                  nav a:hover {
+                                                                    background-color: #6C63FF;
+                                                                    }
+
+                                                                    /* Sections */
+                                                                    section {
+                                                                      max-width: 900px;
+                                                                        margin: 20px auto;
+                                                                          padding: 20px;
+                                                                            background-color: white;
+                                                                              border-radius: 20px;
+                                                                                box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                                                                                }
+
+                                                                                section h2 {
+                                                                                  color: #3B82F6;
+                                                                                    margin-bottom: 15px;
+                                                                                    }
+
+                                                                                    section h3 {
+                                                                                      margin-top: 20px;
+                                                                                        color: #222;
+                                                                                          transition: color 0.3s;
+                                                                                          }
+
+                                                                                          section h3:hover {
+                                                                                            color: #6C63FF;
+                                                                                            }
+
+                                                                                            /* Project Card */
+                                                                                            .project-card {
+                                                                                              padding: 10px;
+                                                                                                margin-bottom: 20px;
+                                                                                                }
+
+                                                                                                /* Contact Icons */
+                                                                                                .contact-icons {
+                                                                                                  list-style: none;
+                                                                                                    padding: 0;
+                                                                                                      margin-top: 20px;
+                                                                                                      }
+
+                                                                                                      .contact-icons li {
+                                                                                                        margin: 10px 0;
+                                                                                                          font-size: 18px;
+                                                                                                          }
+
+                                                                                                          .contact-icons li i {
+                                                                                                            margin-right: 8px;
+                                                                                                              color: #3B82F6;
+                                                                                                                transition: color 0.3s;
+                                                                                                                }
+
+                                                                                                                .contact-icons li:hover i {
+                                                                                                                  color: #6C63FF;
+                                                                                                                  }
+
+                                                                                                                  /* Button */
+                                                                                                                  button {
+                                                                                                                    padding:12px 25px;
+                                                                                                                      background-color:#3B82F6;
+                                                                                                                        color:white;
+                                                                                                                          border:none;
+                                                                                                                            border-radius:8px;
+                                                                                                                              cursor:pointer;
+                                                                                                                                transition: background 0.3s;
+                                                                                                                                }
+
+                                                                                                                                button:hover {
+                                                                                                                                  background-color:#6C63FF;
+                                                                                                                                  }
+
+                                                                                                                                  /* Responsive */
+                                                                                                                                  @media screen and (max-width: 768px) {
+                                                                                                                                    header h1 { font-size: 2em; }
+                                                                                                                                      header p { font-size: 1em; }
+                                                                                                                                        nav { flex-direction: column; gap: 15px; }
+                                                                                                                                          section { margin: 15px; padding: 15px; }
+                                                                                                                                            .profile-img { width: 120px; height: 120px; }
+                                                                                                                                            }
